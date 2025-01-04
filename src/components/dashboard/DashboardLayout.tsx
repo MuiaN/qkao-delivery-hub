@@ -6,7 +6,7 @@ function DashboardContent({ children }: { children: React.ReactNode }) {
   return (
     <div className="min-h-screen flex w-full bg-background">
       <DashboardSidebar />
-      <main className="flex-1 overflow-y-auto">
+      <main className="flex-1 overflow-y-auto pl-16 md:pl-8">
         <div className="container py-6">{children}</div>
       </main>
     </div>

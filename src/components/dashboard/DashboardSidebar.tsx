@@ -78,7 +78,7 @@ export function DashboardSidebar() {
         <Button
           variant="ghost"
           size="icon"
-          className="fixed left-4 top-4 z-50 md:left-6"
+          className="fixed left-2 top-4 z-50"
           onClick={toggleSidebar}
         >
           <PanelRight className="h-4 w-4" />
